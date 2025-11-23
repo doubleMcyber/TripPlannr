@@ -1,0 +1,25 @@
+# Xcode / iOS
+DerivedData/
+build/
+*.xcuserdata
+*.xcuserstate
+*.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+
+# Swift Package Manager
+.build/
+
+# macOS
+.DS_Store
+
+# Node / Firebase
+firebase/functions/node_modules/
+firebase/functions/lib/
+npm-debug.log*
+yarn-error.log*
+
+# Logs
+*.log
+
+# Env / secrets (never commit real keys)
+.env
+.env.local
